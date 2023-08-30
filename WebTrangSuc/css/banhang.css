@@ -1,0 +1,123 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 20px;
+font-size: 30px;
+}
+
+.select-container {
+text-align: center;
+padding-top: 20px;
+}
+
+.price-range {
+margin: 0 auto;
+text-align: center;
+}
+
+#priceFilters {
+margin-bottom: 20px;
+display: block;
+}
+
+#priceRange {
+font-size: 15px;
+padding: 5px 10px;
+}
+
+#filterButton {
+font-size: 15px;
+padding: 6px 15px;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+#filterButton:hover {
+background-color: #0056b3;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th,
+td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+.quantity-input {
+width: 100%;
+text-align: center;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.product {
+margin-bottom: 30px;
+padding: 20px;
+background-color: #f2f2f2;
+border-radius: 5px;
+text-align: center;
+}
+
+.product img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+.product h3 {
+margin-top: 10px;
+font-size: 20px;
+}
+
+.product p {
+margin-top: 10px;
+}
+
+.product span {
+display: block;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.product button {
+margin-top: 10px;
+padding: 8px 15px;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+background-color: #0056b3;
+}
+
+.table-container {
+display: flex;
+flex-direction: column;
+}
